@@ -3125,7 +3125,7 @@ var render = function() {
             "md-app-content",
             [
               _c("img", {
-                attrs: { alt: "Vue logo", src: __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module '@/assets/logo.png'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())) }
+                attrs: { alt: "Vue logo", src: __webpack_require__(/*! @/assets/logo.png */ "./resources/assets/vue/src/assets/logo.png") }
               }),
               _vm._v(" "),
               _c("HelloWorld", { attrs: { msg: "Welcome to Your Vue.js App" } })
@@ -49416,6 +49416,17 @@ new vue__WEBPACK_IMPORTED_MODULE_0___default.a({
     return h(_App_vue__WEBPACK_IMPORTED_MODULE_1__["default"]);
   }
 }).$mount('#app');
+
+/***/ }),
+
+/***/ "./resources/assets/vue/src/assets/logo.png":
+/*!**************************************************!*\
+  !*** ./resources/assets/vue/src/assets/logo.png ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/images/logo.png?82b9c7a5a3f405032b1db71a25f67021";
 
 /***/ }),
 

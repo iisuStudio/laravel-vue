@@ -1,4 +1,11 @@
 const mix = require('laravel-mix');
+const { externals, resolve, plugins } = require('./webpack.config.js')
+
+mix.webpackConfig({
+    externals,
+    resolve,
+    plugins
+})
 
 /*
  |--------------------------------------------------------------------------
