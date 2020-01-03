@@ -3,6 +3,7 @@
 <!--    <img alt="Vue logo" src="./assets/logo.png"> -->
 <!--    <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 <!--    Learning refer: https://vuematerial.io/components/table -->
+      <Home />
       <H2>Table</H2>
       <TableNoStyle />
       <H2>Table Basic</H2>
@@ -27,7 +28,7 @@
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+import Home from './components/Home.vue';
 import TableNoStyle from './components/Table/TableNoStyle.vue';
 import TableBasic from './components/Table/TableBasic.vue';
 import TableCard from './components/Table/TableCard.vue';
@@ -42,7 +43,7 @@ import TableMultiple from './components/Table/TableMultiple.vue';
 export default {
   name: 'app',
   components: {
-    // HelloWorld,
+      Home,
       TableNoStyle,
       TableBasic,
       TableCard,
@@ -64,6 +65,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /*margin-top: 60px;*/
 }
 </style>
