@@ -9,6 +9,10 @@ import 'vue-material/dist/theme/default.css'
 
 Vue.use(VueMaterial)
 
+import { createRouter } from "@/router";
+const router = createRouter();
+
 new Vue({
-  render: h => h(App),
+    router,
+    render: h => h(App),
 }).$mount('#app')
