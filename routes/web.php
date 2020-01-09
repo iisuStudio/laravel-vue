@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/{any}', function () {
+    return view('vue');
     return view('index');
-});
+})->where('any', '^(?!api).*$');

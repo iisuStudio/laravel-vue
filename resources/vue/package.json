@@ -1,12 +1,12 @@
 {
   "name": "vue",
   "version": "0.1.0",
-  "description": "",
-  "main": "./src/app.js",
+  "description": "laravel-vue with material",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve ./src/app.js",
-    "lint": "vue-cli-service lint ./src/app.js"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.4.4",
@@ -21,6 +21,8 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.24.3",
+    "sass-loader": "^8.0.0",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {

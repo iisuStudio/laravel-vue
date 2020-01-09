@@ -16,7 +16,7 @@
         <link rel="icon" href="{{ asset('favicon.ico') }}">
 
         <!-- Style -->
-        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+{{--        <link rel="stylesheet" href="{{ asset('css/app.css') }}">--}}
     </head>
     <body>
         <noscript>
@@ -24,6 +24,6 @@
         </noscript>
         <div id="app"></div>
         <!-- built files will be auto injected -->
-        <script src="{{ asset('js/app.js') }}"></script>
+{{--        <script src="{{ asset('js/app.js') }}"></script>--}}
     </body>
 </html>
