@@ -9,7 +9,13 @@ import 'vue-material/dist/theme/default.css'
 
 Vue.use(VueMaterial)
 
-import { createRouter } from "@/router";
+
+import Default from './layouts/Main.vue'
+import NoSidebar from "./layouts/NoSidebar.vue";
+Vue.component('default-layout', Default);
+Vue.component('no-sidebar-layout', NoSidebar);
+
+import { createRouter } from "./router";
 const router = createRouter();
 
 new Vue({
